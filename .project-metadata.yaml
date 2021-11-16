@@ -42,7 +42,6 @@ tasks:
     memory: 32
     gpu: 1
 
-
   - type: create_model
     name: XRay Model 1
     entity_label: xray_model_1
@@ -62,7 +61,7 @@ tasks:
           path: "data/test/normal/IM-0117-0001.jpeg"
           image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAARUlEQVRIS+3SwQkAQAwCQdN/0XclyELIa/MVEYZMkpfDGwe3tSXdFo2kkmIBnwaTtYKkTQjnkmKyVpC0CeFcUkzWCuekH906HAF1NLazAAAAAElFTkSuQmCC"
         response: ""
-    target_file_path: code/serve_model_1.py
+    target_file_path: code/model_serve_1.py
     target_function_name: predict
     kernel: python3
 
@@ -92,7 +91,7 @@ tasks:
           path: "data/test/normal/IM-0117-0001.jpeg"
           image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAARUlEQVRIS+3SwQkAQAwCQdN/0XclyELIa/MVEYZMkpfDGwe3tSXdFo2kkmIBnwaTtYKkTQjnkmKyVpC0CeFcUkzWCuekH906HAF1NLazAAAAAElFTkSuQmCC"
         response: ""
-    target_file_path: code/serve_model_2.py
+    target_file_path: code/model_serve_2.py
     target_function_name: predict
     kernel: python3
 
