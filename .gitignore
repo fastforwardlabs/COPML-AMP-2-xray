@@ -1,0 +1,14 @@
+.*
+R
+data/*
+data_temp/*
+node_modules
+*.pyc
+__pycache__
+.*
+!.gitignore
+!.project-metadata.yaml
+notebooks/.ipynb_checkpoints
+.vscode
+.ipynb_checkpoints
+xray_data.tgz
